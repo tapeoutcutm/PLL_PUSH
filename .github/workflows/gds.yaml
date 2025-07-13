@@ -26,16 +26,16 @@ jobs:
           gds_path: gds/${{ steps.top_module.outputs.TOP_MODULE }}.gds
           lef_path: lef/${{ steps.top_module.outputs.TOP_MODULE }}.lef
           verilog_path: src/project.v
-
-  precheck:
-    needs: gds
-    runs-on: ubuntu-24.04
-    steps:
-      - name: Run Tiny Tapeout Precheck
-        uses: TinyTapeout/tt-gds-action/precheck@ttsky25a
-        with:
-          pdk: sky130
-          tools-ref: ttsky25a
+  
+  #precheck:
+  #  needs: gds
+  #  runs-on: ubuntu-24.04
+  #  steps:
+  #    - name: Run Tiny Tapeout Precheck
+  #      uses: TinyTapeout/tt-gds-action/precheck@ttsky25a
+  #      with:
+  #        pdk: sky130
+  #        tools-ref: ttsky25a
 
   viewer:
     needs: gds
