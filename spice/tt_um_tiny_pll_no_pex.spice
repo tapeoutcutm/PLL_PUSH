@@ -1,4 +1,4 @@
-* NGSPICE file created from tt_um_tiny_pll.ext - technology: sky130A
+* NGSPICE file created from tt_um_Enhanced_pll.ext - technology: sky130A
 
 .subckt sky130_fd_sc_hd__decap_6 VPWR VGND VNB VPB
 X0 VPWR VGND VPWR VPB sky130_fd_pr__pfet_01v8_hvt ad=0.2262 pd=2.26 as=0.4524 ps=4.52 w=0.87 l=1.97
@@ -3083,7 +3083,7 @@ X2678 a_905_11027# a_861_11269# a_739_11027# a_127_3207# sky130_fd_pr__nfet_01v8
 X2679 a_6185_3545# a_9585_3769# a_127_3207# sky130_fd_pr__res_xhigh_po_0p35 l=15
 .ends
 
-.subckt tt_um_tiny_pll VGND VPWR clk ena rst_n ui_in[0] ui_in[1] ui_in[2] ui_in[3]
+.subckt tt_um_Enhanced_pll VGND VPWR clk ena rst_n ui_in[0] ui_in[1] ui_in[2] ui_in[3]
 + ui_in[4] ui_in[5] ui_in[6] ui_in[7] uio_in[0] uio_in[1] uio_in[2] uio_in[3] uio_in[4]
 + uio_in[5] uio_in[6] uio_in[7] uio_oe[0] uio_oe[1] uio_oe[2] uio_oe[3] uio_oe[4]
 + uio_oe[5] uio_oe[6] uio_oe[7] uio_out[0] uio_out[1] uio_out[2] uio_out[3] uio_out[4]
