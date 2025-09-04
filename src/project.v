@@ -1,4 +1,4 @@
-module tt_um_tiny_pll (
+module tt_um_Enhanced_pll (
 	input wire VGND,
 	input wire VPWR,
 	input wire [7:0] ui_in,
