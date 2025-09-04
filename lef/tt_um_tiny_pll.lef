@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_tiny_pll
+MACRO tt_um_Enhanced_pll
   CLASS BLOCK ;
-  FOREIGN tt_um_tiny_pll ;
+  FOREIGN tt_um_Enhanced_pll ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 111.520 ;
   PIN VGND
@@ -417,6 +417,6 @@ MACRO tt_um_tiny_pll
         RECT 126.090 25.335 137.260 109.440 ;
         RECT 139.660 25.335 144.145 109.440 ;
   END
-END tt_um_tiny_pll
+END tt_um_Enhanced_pll
 END LIBRARY
 
